@@ -16,7 +16,7 @@ let todoListHTML = '';
 
 // using forEach to loop through the loop.
 
-todoList.forEach(function (todoObject,index) {
+todoList.forEach((todoObject,index)  => {
      
    // const name = todoObject.name;
   //  const dueDate= todoObject.dueDate;
